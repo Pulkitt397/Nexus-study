@@ -1,0 +1,105 @@
+*** RBSE CLASS 12 WRITING SKILLS (15 MARKS) ***
+CRITICAL RULE: Always draw a BOX for Notice, Advertisement, and Invitation.
+
+=== SECTION 1: SHORT COMPOSITION (4 Marks) ===
+
+1. NOTICE WRITING
+Format:
+-------------------------------------------------------
+|             NAME OF ORGANIZATION (Caps)             |
+|                       NOTICE                        |
+| [Date]                                              |
+|                   HEADING (Caps)                    |
+|                                                     |
+| All the students/members are hereby informed that   |
+| our school is organizing [Event] on [Date] at       |
+| [Time] in the [Venue].                              |
+|                                                     |
+| Those who are interested may give their names to    |
+| the undersigned by [Last Date].                     |
+|                                                     |
+| (Signature)                                         |
+| [NAME]                                              |
+| [DESIGNATION]                                       |
+-------------------------------------------------------
+
+2. ADVERTISEMENT (Matrimonial)
+Heading: BRIDE WANTED / GROOM WANTED
+Content: "Wanted a suitable match for a handsome/beautiful [Caste] boy/girl, [Age], [Height], [Job/Education], [Income]. Looking for a [Requirements e.g., Govt employee, tall]. Send bio-data and photo to [Contact Info]."
+
+3. ADVERTISEMENT (Accommodation/To Let)
+Heading: TO LET / ACCOMMODATION WANTED
+Content: "Available on rent a newly built house in [Area]. 2 BHK, modular kitchen, parking facility, 24h water. Rent reasonable. Contact: [Name, Mobile No]."
+
+4. INVITATION (Formal Reply - Acceptance)
+Format:
+-------------------------------------------------------
+| Mrs. and Mr. Sharma thank Mrs. and Mr. Gupta for    |
+| their kind invitation to attend the wedding of      |
+| their son on [Date] at [Venue].                     |
+|                                                     |
+| They are delighted to accept the invitation and     |
+| will surely attend the function.                    |
+|                                                     |
+| Best Wishes.                                        |
+-------------------------------------------------------
+
+5. INVITATION (Formal Reply - Refusal)
+Format:
+-------------------------------------------------------
+| Mrs. and Mr. Sharma thank... (Same as above)        |
+| ...                                                 |
+| But regret their inability to attend due to a       |
+| prior engagement / unavoidable reason.              |
+|                                                     |
+| Best Wishes to the couple.                          |
+-------------------------------------------------------
+
+=== SECTION 2: REPORT / PARAGRAPH (5 Marks) ===
+
+1. REPORT WRITING (Past Tense)
+Format:
+[Heading in Caps]
+By [Name/Reporter]
+
+[Place, Date]: The [Event Name] was celebrated/organized yesterday at [School Name/Place] with great pomp and show. The District Collector was the chief guest. The program started at 10 AM with the lighting of the lamp.
+[Middle Para]: Students performed cultural dances. The Principal read the annual report. Prizes were distributed to meritorious students.
+[End Para]: The Chief Guest gave a motivating speech. The function ended with the National Anthem.
+
+=== SECTION 3: LETTER WRITING (6 Marks) ===
+
+1. JOB APPLICATION (Most Important)
+Format:
+[Sender's Address]
+[Date]
+
+The Principal / Manager,
+[Receiver's Address]
+
+Subject: Application for the post of [Post Name].
+
+Sir,
+With reference to your advertisement in 'The Rajasthan Patrika' dated [Date] for the post of [Post Name], I offer my candidature for the same. I assure you that I will work with full dedication. My bio-data is enclosed herewith.
+
+Yours faithfully,
+[Name]
+
+Encl: Bio-data
+
+----------------- BIO-DATA -----------------
+1. Name         : [Name]
+2. Father's Name: [Father's Name]
+3. DOB          : [Date]
+4. Education    : MA (English), B.Ed.
+5. Experience   : 5 Years
+6. Contact      : [Mobile No]
+--------------------------------------------
+
+2. LETTER TO EDITOR (Complaint/Issue)
+Subject: Regarding [Issue e.g., Poor Sanitation/Loudspeakers].
+Body: "Through the columns of your esteemed newspaper, I would like to draw the attention of the authorities towards..."
+Ending: "I hope the authorities will take necessary action."
+
+3. BUSINESS LETTER (Placing Order)
+Subject: Order for [Items].
+Body: "Please send the following items for our school library..." (Make a table of items).

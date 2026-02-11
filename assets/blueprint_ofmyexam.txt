@@ -1,0 +1,107 @@
+*** RBSE CLASS 12 ENGLISH COMPULSORY BLUEPRINT (2026) ***
+
+=== EXAM OVERVIEW ===
+SUBJECT: English Compulsory (02)
+CLASS: 12th
+BOARD: RBSE (Rajasthan Board of Secondary Education)
+MAX MARKS: 80
+TIME: 3 Hours 15 Minutes
+
+=== SECTION A: READING SKILLS (15 MARKS) ===
+(Objective: Test comprehension and vocabulary)
+
+1. UNSEEN PASSAGE 1 (9 Marks)
+   - Length: 350-400 Words.
+   - Question 1-6: Comprehension (Short Answer). [1 Mark each]
+   - Question 7-9: Vocabulary (Synonym/Antonym/One-word). [1 Mark each]
+
+2. UNSEEN PASSAGE 2 (6 Marks)
+   - Length: 250-300 Words.
+   - Question 10-13: Comprehension (Short Answer). [1 Mark each]
+   - Question 14-15: Vocabulary (Find word). [1 Mark each]
+
+=== SECTION B: WRITING SKILLS (15 MARKS) ===
+(Objective: Test expression, format, and creativity)
+
+3. SHORT COMPOSITION (4 Marks)
+   - Word Limit: 50 Words.
+   - Task: Draft a Notice / Advertisement / Invitation (Accept/Decline).
+   - Choice: Internal Choice (One out of two).
+
+4. REPORT / TRANSLATION (5 Marks)
+   - Word Limit: 100 Words.
+   - Task: Report on an event / Paragraph based on visual aid OR Translation of Hindi passage to English.
+   - Choice: Internal Choice.
+
+5. LETTER WRITING (6 Marks)
+   - Word Limit: 100-120 Words.
+   - Task: Job Application (with Bio-data) / Letter to Editor / Official Letter (Complaints/Enquiries).
+   - Choice: Internal Choice.
+
+=== SECTION C: GRAMMAR (8 MARKS) ===
+(Objective: Test functional grammar usage)
+
+6. CLAUSES (2 Marks)
+   - Task: Join sentences using 'who, whom, whose, which, that, when, where'.
+   - Format: 2 Questions (Fill in the blank or Join).
+
+7. SYNTHESIS (2 Marks)
+   - Task: Combine sentences into Simple, Complex, or Compound.
+   - Format: 2 Questions.
+
+8. PHRASAL VERBS (2 Marks)
+   - Syllabus: Break, Bring, Carry, Come, Get, Put, Turn.
+   - Format: 2 Fill in the blanks.
+
+9. PREPOSITIONS / CONJUNCTIONS (2 Marks)
+   - Task: Fill in the blanks with correct preposition or connector.
+   - Format: 2 Questions.
+
+=== SECTION D: TEXTBOOKS (42 MARKS) ===
+(Objective: Test literature analysis and recall)
+
+--- FLAMINGO (PROSE) --- (14 Marks Total)
+10. REFERENCE TO CONTEXT (6 Marks)
+    - Extract from a chapter.
+    - 6 Questions (MCQ or One Word).
+    - Choice: One out of two extracts.
+
+11. LONG ANSWER TYPE (4 Marks)
+    - Word Limit: 80 Words.
+    - Content: Theme, Character Sketch, or Plot.
+    - Choice: One out of two.
+
+12. SHORT ANSWER TYPE (4 Marks)
+    - Word Limit: 20-25 Words.
+    - Format: 2 Questions of 2 Marks each.
+
+--- FLAMINGO (POETRY) --- (14 Marks Total)
+13. REFERENCE TO CONTEXT (6 Marks)
+    - Extract from a poem.
+    - 6 Questions (Explaining lines/Poetic devices).
+    - Choice: One out of two extracts.
+
+14. LONG ANSWER TYPE (4 Marks)
+    - Word Limit: 80 Words.
+    - Content: Central Idea or Theme of the poem.
+    - Choice: One out of two.
+
+15. SHORT ANSWER TYPE (4 Marks)
+    - Word Limit: 20-25 Words.
+    - Format: 2 Questions of 2 Marks each.
+
+--- VISTAS (SUPPLEMENTARY) --- (14 Marks Total)
+16. LONG ANSWER TYPE (4 Marks)
+    - Word Limit: 80 Words.
+    - Content: Character sketch or Thematic question.
+    - Choice: One out of two.
+
+17. SHORT ANSWER TYPE (4 Marks)
+    - Word Limit: 20-25 Words.
+    - Format: 2 Questions of 2 Marks each.
+
+18. MULTIPLE CHOICE QUESTIONS (6 Marks)
+    - Format: 6 MCQs covering all Vistas chapters.
+    - Objective: Check deep reading of the text.
+
+=== TOTAL: 80 MARKS ===

@@ -1,0 +1,50 @@
+{
+  "exam_config": {
+    "year": "2026",
+    "total_marks": 80,
+    "time_minutes": 195,
+    "sections": ["A", "B", "C", "D"]
+  },
+  "blue_print": [
+    {
+      "section": "A",
+      "name": "Reading Skills",
+      "marks": 15,
+      "breakdown": [
+        {"type": "Unseen Passage 1", "marks": 9, "questions": "6 Short + 3 Vocab"},
+        {"type": "Unseen Passage 2", "marks": 6, "questions": "4 Short + 2 Vocab"}
+      ]
+    },
+    {
+      "section": "B",
+      "name": "Writing Skills",
+      "marks": 15,
+      "breakdown": [
+        {"type": "Short Composition", "options": ["Notice", "Advertisement", "Invitation"], "marks": 4},
+        {"type": "Report/Paragraph", "marks": 5},
+        {"type": "Letter", "options": ["Job Application", "Editor", "Business"], "marks": 6}
+      ]
+    },
+    {
+      "section": "C",
+      "name": "Grammar",
+      "marks": 8,
+      "topics": [
+        {"topic": "Clauses", "marks": 2},
+        {"topic": "Synthesis", "marks": 2},
+        {"topic": "Phrasal Verbs", "marks": 2},
+        {"topic": "Conjunctions", "marks": 2}
+      ]
+    },
+    {
+      "section": "D",
+      "name": "Textbooks",
+      "marks": 42,
+      "breakdown": [
+        {"book": "Flamingo Prose", "extract_marks": 6, "long_ans": 4, "short_ans": 4},
+        {"book": "Flamingo Poetry", "extract_marks": 6, "long_ans": 4, "short_ans": 4},
+        {"book": "Vistas", "long_ans": 4, "short_ans": 4, "mcq": 6}
+      ]
+    }
+  ]
+}

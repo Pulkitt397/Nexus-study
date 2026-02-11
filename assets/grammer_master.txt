@@ -1,0 +1,123 @@
+*** RBSE CLASS 12 ENGLISH GRAMMAR (8 MARKS) ***
+
+=== TOPIC 1: CLAUSES (2 Marks) ===
+DEFINITION: Joining two sentences using a connector (who, whose, whom, which, that, when, where, why).
+
+RULE 1: 'WHO' (Person - Subject)
+- Use when the blank is after a person and before a verb.
+- Example: The boy ___ is standing there is my brother. (Answer: who)
+- TRICK: Person + [WHO] + Verb.
+
+RULE 2: 'WHOM' (Person - Object)
+- Use when the blank is after a person and before another Subject + Verb.
+- Example: The man ___ I met yesterday was a doctor. (Answer: whom)
+- TRICK: Person + [WHOM] + Subject + Verb.
+
+RULE 3: 'WHOSE' (Possession/Owner)
+- Use when the blank is between two nouns (Person + Thing/Relation).
+- Example: The man ___ shirt is blue is my uncle. (Answer: whose)
+- TRICK: Person + [WHOSE] + Thing/Person related.
+
+RULE 4: 'WHICH' (Things/Animals)
+- Use for non-living things or animals.
+- Example: The dog ___ bit me is mad. (Answer: which)
+- Example: The car ___ I bought is red. (Answer: which)
+
+RULE 5: 'WHERE' (Place)
+- Use when referring to a place.
+- Example: This is the school ___ I studied. (Answer: where)
+
+=== TOPIC 2: SYNTHESIS (2 Marks) ===
+DEFINITION: Combining two sentences into one (Simple, Complex, or Compound).
+
+TYPE A: COMBINE INTO SIMPLE SENTENCE
+1. Using Participles (ing):
+   - Q: He saw a tiger. He ran away.
+   - A: Seeing a tiger, he ran away.
+2. Using Infinitives (to):
+   - Q: He went to Agra. He wanted to see the Taj.
+   - A: He went to Agra to see the Taj.
+3. Using 'Too...to':
+   - Q: He is very weak. He cannot walk.
+   - A: He is too weak to walk.
+
+TYPE B: COMBINE INTO COMPLEX SENTENCE (use if/because/although/who/which)
+1. Condition:
+   - Q: Work hard. You will pass.
+   - A: If you work hard, you will pass.
+2. Reason:
+   - Q: He did not come. He was ill.
+   - A: He did not come because he was ill.
+3. Contrast:
+   - Q: He is rich. He is unhappy.
+   - A: Although he is rich, he is unhappy.
+
+TYPE C: COMBINE INTO COMPOUND SENTENCE (use and/but/so/or/not only...but also)
+- Q: He is intelligent. He is diligent.
+- A: He is not only intelligent but also diligent.
+
+=== TOPIC 3: PHRASAL VERBS (2 Marks) ===
+(Strictly memorize these 7 verbs for RBSE)
+
+1. BREAK (To divide/destroy)
+   - Break down: Stop working (machinery) or Start crying (emotion).
+     * Ex: The car broke down.
+   - Break into: Enter forcibly (theft).
+     * Ex: The thief broke into the house.
+   - Break out: Spread suddenly (war/fire/disease).
+     * Ex: Corona broke out in 2019.
+   - Break with: End a relationship/quarrel.
+
+2. BRING (To carry)
+   - Bring up: Rear/Educate a child.
+     * Ex: She was brought up by her aunt.
+   - Bring out: Publish/Highlight.
+     * Ex: He brought out a new book.
+   - Bring about: Cause to happen.
+
+3. CARRY (To bear)
+   - Carry on: Continue.
+     * Ex: Carry on your work.
+   - Carry out: Execute/Obey orders.
+     * Ex: Soldiers carry out orders.
+
+4. COME (To arrive)
+   - Come across: Meet by chance.
+     * Ex: I came across an old friend.
+   - Come off: Take place/occur.
+     * Ex: The ceremony comes off tomorrow.
+
+5. GET (To receive)
+   - Get over: Recover (from illness/shock).
+     * Ex: He got over his illness.
+   - Get along: Be friendly/Manage.
+     * Ex: They get along well.
+   - Get up: Rise from bed.
+
+6. PUT (To place)
+   - Put on: Wear.
+     * Ex: Put on your shoes.
+   - Put out: Extinguish (fire/light).
+     * Ex: Put out the lamp.
+   - Put off: Postpone.
+     * Ex: The meeting was put off.
+   - Put up with: Tolerate/Bear.
+     * Ex: I cannot put up with this insult.
+
+7. TURN (To rotate)
+   - Turn down: Reject/Refuse.
+     * Ex: She turned down my offer.
+   - Turn out: Prove to be / Expel.
+     * Ex: He turned out to be a thief.
+
+=== TOPIC 4: PREPOSITIONS (2 Marks) ===
+Common Exam Prepositions:
+1. AT: Exact time (at 5 PM), small places (at Ramnagar).
+2. IN: Months/Years (in 2024), big places (in Jaipur).
+3. ON: Days/Dates (on Monday, on 15th August).
+4. SINCE: Point of time (since Morning, since 1947).
+5. FOR: Period of time (for 2 hours, for 3 days).
+6. BETWEEN: Two people/things.
+7. AMONG: More than two.
+8. BESIDE: By the side of.
+9. BESIDES: In addition to.
