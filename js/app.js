@@ -308,8 +308,8 @@ function stopSpeaking() {
 function navigate(hash) {
     if (window.location.hash === '#' + hash || (window.location.hash === '' && hash === 'home')) {
         // Force state update even if hash is same
-        if (hash === 'home') showDashboard();
-        else hideDashboard();
+        // if (hash === 'home') showDashboard(); else hideDashboard();
+        hideDashboard(); // TEMPORARY: Always hide dashboard
         render();
     } else {
         window.location.hash = hash;
@@ -338,11 +338,9 @@ function render() {
     stopSpeaking();
 
     // Toggle Dashboard based on route
-    if (route.view === 'home') {
-        showDashboard();
-    } else {
-        hideDashboard();
-    }
+    // if (route.view === 'home') { showDashboard(); } else { hideDashboard(); }
+    hideDashboard(); // TEMPORARY: Always hide dashboard
+
 
     switch (route.view) {
         case 'home': renderHome(); break;
