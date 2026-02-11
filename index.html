@@ -14,74 +14,114 @@
 
   <!-- ── Intro Overlay ──────────────────────────── -->
   <!-- ── Intro Overlay ──────────────────────────── -->
-  <div id="intro-overlay">
-    <div class="intro-bg-pattern"></div>
-    <div class="intro-floating-icon icon-1">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M12 20h9" />
-        <path d="M16.5 3.5a2.121 2.121 0 0 1 3 3L7 19l-4 1 1-4L16.5 3.5z" />
-      </svg>
-    </div>
-    <div class="intro-floating-icon icon-2">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20" />
-        <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z" />
-      </svg>
-    </div>
-    <div class="intro-floating-icon icon-3">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-        <circle cx="12" cy="12" r="10" />
-        <polyline points="12 6 12 12 16 14" />
-      </svg>
-    </div>
+  <!-- ── Dashboard (Bento Grid) ──────────────────────────── -->
+  <div id="dashboard" class="dashboard-visible">
+    <div class="dashboard-bg"></div>
+    <div class="dashboard-content">
 
-    <div class="intro-content-wrapper">
-      <div class="intro-text-col">
-        <div class="intro-brand-badge">Study With Nexus</div>
-        <h1 class="intro-title">Master Class 12 <br><span class="text-gradient">English Board Exam</span></h1>
-        <p class="intro-subtitle">Stop wasting time on heavy books. Get concise summaries, key points, grammar tricks,
-          and mock tests — all in one beautiful app.</p>
-
-        <div class="intro-features">
-          <div class="intro-feat"><span>✨</span> Smart Summaries</div>
-          <div class="intro-feat"><span>🚀</span> AI Tutor</div>
-          <div class="intro-feat"><span>📝</span> Mock Tests</div>
+      <!-- App Bar -->
+      <header class="app-bar">
+        <div class="logo">
+          <div class="logo-icon">⚡</div>
+          <span class="logo-text">Nexus Prep</span>
         </div>
-
-        <button class="btn-primary intro-cta" id="intro-btn">
-          Start Learning Now
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-            stroke-linejoin="round" style="width:18px;height:18px">
-            <line x1="5" y1="12" x2="19" y2="12" />
-            <polyline points="12 5 19 12 12 19" />
-          </svg>
-        </button>
-        <div class="intro-disclaimer">Designed for RBSE Class 12 • 100% Free</div>
-      </div>
-
-      <div class="intro-visual-col">
-        <div class="intro-book-card">
-          <div class="book-icon-wrapper">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"
-              stroke-linejoin="round">
-              <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z" />
-              <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z" />
+        <div class="app-bar-right">
+          <div class="streak-pill">🔥 2 Day Streak</div>
+          <div class="settings-btn">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="3" />
+              <path
+                d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09a1.65 1.65 0 0 0-1-1.51 1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1V11a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09a1.65 1.65 0 0 0 1.51-1 1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z" />
             </svg>
           </div>
-          <div class="book-card-stats">
-            <div class="stat-item">
-              <span class="stat-val">100%</span>
-              <span class="stat-lbl">Syllabus</span>
-            </div>
-            <div class="stat-item">
-              <span class="stat-val">24/7</span>
-              <span class="stat-lbl">AI Help</span>
+        </div>
+      </header>
+
+      <!-- Hero Section -->
+      <section class="hero-section">
+        <div class="hero-glass-card">
+          <div class="hero-info">
+            <h1 id="hero-welcome">Hi Pulkit, Ready to ace?</h1>
+            <div class="countdown-wrapper">
+              <span class="timer-label">Exam in:</span>
+              <span id="countdown-timer" class="timer-val">47:59:59</span>
             </div>
           </div>
+          <div class="hero-progress">
+            <div class="circular-progress">
+              <svg viewBox="0 0 36 36" class="circular-chart">
+                <path class="circle-bg"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <path id="progress-circle" class="circle" stroke-dasharray="12, 100"
+                  d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" />
+                <text x="18" y="20.35" class="percentage" id="progress-text">12%</text>
+              </svg>
+            </div>
+            <span class="progress-label">Coverage</span>
+          </div>
         </div>
-      </div>
+      </section>
+
+      <!-- Study Grid (Bento) -->
+      <section class="study-grid">
+        <div class="bento-card bento-prose" onclick="navigate('home'); setCategory('Flamingo'); hideDashboard();">
+          <div class="card-icon-circle">📚</div>
+          <div class="card-body">
+            <span class="card-count">8 Chapters</span>
+            <span class="card-title">Flamingo Prose</span>
+          </div>
+        </div>
+        <div class="bento-card bento-poetry" onclick="navigate('home'); setCategory('Flamingo'); hideDashboard();">
+          <div class="card-icon-circle">🪶</div>
+          <div class="card-body">
+            <span class="card-count">5 Poems</span>
+            <span class="card-title">Flamingo Poetry</span>
+          </div>
+        </div>
+        <div class="bento-card bento-vistas" onclick="navigate('home'); setCategory('Vistas'); hideDashboard();">
+          <div class="card-icon-circle">👁️</div>
+          <div class="card-body">
+            <span class="card-count">6 Chapters</span>
+            <span class="card-title">Vistas</span>
+          </div>
+        </div>
+        <div class="bento-card bento-grammar" onclick="navigate('home'); setCategory('Grammar'); hideDashboard();">
+          <div class="card-icon-circle">✍️</div>
+          <div class="card-body">
+            <span class="card-count">Rules & Formats</span>
+            <span class="card-title">Grammar & Writing</span>
+          </div>
+        </div>
+      </section>
+
+      <!-- Action Deck -->
+      <section class="action-deck">
+        <button class="action-btn btn-mock" onclick="navigate('mocktest'); hideDashboard();">
+          <span class="action-icon-circle">📝</span>
+          <div class="action-body">
+            <span class="action-title">Take Mock Test</span>
+            <span class="action-subtitle">Urgent Style</span>
+          </div>
+        </button>
+        <button class="action-btn btn-ai" onclick="navigate('ai-tutor'); hideDashboard();">
+          <span class="action-icon-circle">🤖</span>
+          <div class="action-body">
+            <span class="action-title">Ask AI Tutor</span>
+            <span class="action-subtitle">Floating Assistant</span>
+          </div>
+        </button>
+        <button class="action-btn btn-resume" id="resume-btn" onclick="resumeLastRead()">
+          <span class="action-icon-circle">▶️</span>
+          <div class="action-body">
+            <span class="action-title">Last Read</span>
+            <span class="action-subtitle" id="last-read-item">The Last Lesson</span>
+          </div>
+        </button>
+      </section>
+
     </div>
   </div>
+
 
   <!-- ── Sidebar ────────────────────────────────── -->
   <nav id="sidebar">

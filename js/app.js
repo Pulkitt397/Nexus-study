@@ -19,9 +19,59 @@ const state = {
     isLoading: true,
 };
 
-const categories = ['All', 'Flamingo', 'Vistas', 'Grammar', 'Writing'];
+// ── Dashboard Logic ──────────────────────────────────────
+let dashboardTimer = null;
+let timeLeft = 48 * 3600; // 48 hours in seconds
 
-// ── Icons (inline SVG) ──────────────────────────────────
+function updateDashboardTimer() {
+    const hours = Math.floor(timeLeft / 3600);
+    const mins = Math.floor((timeLeft % 3600) / 60);
+    const secs = timeLeft % 60;
+    const timerStr = `${hours.toString().padStart(2, '0')}:${mins.toString().padStart(2, '0')}:${secs.toString().padStart(2, '0')}`;
+    const el = document.getElementById('countdown-timer');
+    if (el) el.innerText = timerStr;
+    if (timeLeft > 0) timeLeft--;
+}
+
+function hideDashboard() {
+    const dash = document.getElementById('dashboard');
+    if (dash) {
+        dash.classList.remove('dashboard-visible');
+        dash.style.display = 'none';
+    }
+}
+
+function showDashboard() {
+    const dash = document.getElementById('dashboard');
+    if (dash) {
+        dash.classList.add('dashboard-visible');
+        dash.style.display = 'flex';
+    }
+}
+
+function resumeLastRead() {
+    let last = state.flamingoProse.find(c => c.title.toLowerCase().includes('last lesson'));
+    if (!last && state.flamingoProse.length > 0) last = state.flamingoProse[0];
+
+    if (last) {
+        const idx = state.flamingoProse.indexOf(last);
+        navigate(`chapter/prose-${idx}`);
+        hideDashboard();
+    }
+}
+
+// Start timer
+setInterval(updateDashboardTimer, 1000);
+
+// Global Exposure
+window.hideDashboard = hideDashboard;
+window.showDashboard = showDashboard;
+window.resumeLastRead = resumeLastRead;
+window.setCategory = (cat) => {
+    state.selectedCategory = cat;
+    render();
+};
+
 const ICONS = {
     book: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"/><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"/></svg>',
     openBook: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>',
@@ -177,8 +227,18 @@ async function loadAllData() {
         try { state.examBlueprint = JSON.parse(mockBP); } catch (e) { console.warn('Mock blueprint parse error', e); }
         try { state.config = JSON.parse(config); } catch (e) { console.warn('Config parse error', e); }
 
+        if (timeLeft === 48 * 3600) { // first load
+            const lastItemEl = document.getElementById('last-read-item');
+            if (lastItemEl) {
+                const last = state.flamingoProse.find(c => c.title.toLowerCase().includes('last lesson')) || state.flamingoProse[0];
+                if (last) lastItemEl.innerText = last.title;
+            }
+        }
+
         state.isLoading = false;
+        render(); // Initial render
     } catch (err) {
+
         console.error('Error loading data:', err);
         state.isLoading = false;
     }
@@ -205,22 +265,22 @@ function speak(text) {
 
     ttsUtterance = new SpeechSynthesisUtterance(text);
 
-    // 1. Look for specific high-quality Indian voices (Google > Microsoft Heera > Others)
-    // Google's "en-IN" is usually very smooth and soft.
-    const indianVoice = availableVoices.find(v => v.lang === 'en-IN' && v.name.includes('Google')) ||
+    // Prioritize "Neerja" (Microsoft) or "Google" Indian voices for a soft, natural accent
+    const indianVoice = availableVoices.find(v => v.name.includes('Neerja')) ||
+        availableVoices.find(v => v.lang === 'en-IN' && v.name.includes('Google')) ||
         availableVoices.find(v => v.lang === 'en-IN' && v.name.includes('Heera')) ||
         availableVoices.find(v => v.lang === 'en-IN');
 
     if (indianVoice) {
         ttsUtterance.voice = indianVoice;
     } else {
-        // Fallback to any English voice if Indian isn't found
         ttsUtterance.lang = 'en-IN';
     }
 
-    // "Softer" adjustments
-    ttsUtterance.rate = 0.9; // Slightly slower for clarity
-    ttsUtterance.pitch = 1.0;
+    // "Softer" adjustments: slightly lower rate and natural pitch
+    ttsUtterance.rate = 0.85;
+    ttsUtterance.pitch = 1.05;
+    ttsUtterance.volume = 1.0;
 
     ttsUtterance.onend = () => {
         isSpeaking = false;
@@ -240,7 +300,13 @@ function stopSpeaking() {
 // ── Router ──────────────────────────────────────────────
 function navigate(hash) {
     window.location.hash = hash;
+    if (hash === 'home') {
+        showDashboard();
+    } else {
+        hideDashboard();
+    }
 }
+
 
 function getRoute() {
     const hash = window.location.hash.slice(1) || 'home';
