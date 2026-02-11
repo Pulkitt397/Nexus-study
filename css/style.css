@@ -280,6 +280,26 @@ select {
   gap: 8px;
 }
 
+.hero-start-btn {
+  background: #2D3748;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 16px;
+  font-size: 15px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: all 0.3s var(--ease);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.hero-start-btn:hover {
+  transform: translateY(-2px);
+  background: #1A202C;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
 .circular-progress {
   width: 80px;
   height: 80px;
@@ -2041,6 +2061,13 @@ select {
   .circular-progress {
     width: 60px;
     height: 60px;
+  }
+
+  .hero-start-btn {
+    padding: 10px 18px;
+    font-size: 14px;
+    flex: 1;
+    justify-content: center;
   }
 
   /* Bento Grid - 1-column on vertical mobile */

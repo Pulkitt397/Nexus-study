@@ -19,6 +19,13 @@ const state = {
     isLoading: true,
 };
 
+const categories = ['All', 'Flamingo', 'Vistas', 'Grammar', 'Writing'];
+
+function cardColor(idx) {
+    const colors = ['purple', 'amber', 'teal', 'rose', 'blue'];
+    return colors[idx % colors.length];
+}
+
 // ── Dashboard Logic ──────────────────────────────────────
 let dashboardTimer = null;
 let timeLeft = 48 * 3600; // 48 hours in seconds
@@ -299,11 +306,13 @@ function stopSpeaking() {
 
 // ── Router ──────────────────────────────────────────────
 function navigate(hash) {
-    window.location.hash = hash;
-    if (hash === 'home') {
-        showDashboard();
+    if (window.location.hash === '#' + hash || (window.location.hash === '' && hash === 'home')) {
+        // Force state update even if hash is same
+        if (hash === 'home') showDashboard();
+        else hideDashboard();
+        render();
     } else {
-        hideDashboard();
+        window.location.hash = hash;
     }
 }
 
@@ -327,6 +336,13 @@ function render() {
     const route = getRoute();
     setActiveNav(route.view);
     stopSpeaking();
+
+    // Toggle Dashboard based on route
+    if (route.view === 'home') {
+        showDashboard();
+    } else {
+        hideDashboard();
+    }
 
     switch (route.view) {
         case 'home': renderHome(); break;

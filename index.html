@@ -57,35 +57,40 @@
                 <text x="18" y="20.35" class="percentage" id="progress-text">12%</text>
               </svg>
             </div>
-            <span class="progress-label">Coverage</span>
+            <button class="hero-start-btn" onclick="setCategory('All'); hideDashboard();">
+              <span>Start Learning</span>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" width="16" height="16">
+                <path d="M5 12h14M12 5l7 7-7 7" />
+              </svg>
+            </button>
           </div>
         </div>
       </section>
 
       <!-- Study Grid (Bento) -->
       <section class="study-grid">
-        <div class="bento-card bento-prose" onclick="navigate('home'); setCategory('Flamingo'); hideDashboard();">
+        <div class="bento-card bento-prose" onclick="setCategory('Flamingo'); hideDashboard();">
           <div class="card-icon-circle">📚</div>
           <div class="card-body">
             <span class="card-count">8 Chapters</span>
             <span class="card-title">Flamingo Prose</span>
           </div>
         </div>
-        <div class="bento-card bento-poetry" onclick="navigate('home'); setCategory('Flamingo'); hideDashboard();">
+        <div class="bento-card bento-poetry" onclick="setCategory('Flamingo'); hideDashboard();">
           <div class="card-icon-circle">🪶</div>
           <div class="card-body">
             <span class="card-count">5 Poems</span>
             <span class="card-title">Flamingo Poetry</span>
           </div>
         </div>
-        <div class="bento-card bento-vistas" onclick="navigate('home'); setCategory('Vistas'); hideDashboard();">
+        <div class="bento-card bento-vistas" onclick="setCategory('Vistas'); hideDashboard();">
           <div class="card-icon-circle">👁️</div>
           <div class="card-body">
             <span class="card-count">6 Chapters</span>
             <span class="card-title">Vistas</span>
           </div>
         </div>
-        <div class="bento-card bento-grammar" onclick="navigate('home'); setCategory('Grammar'); hideDashboard();">
+        <div class="bento-card bento-grammar" onclick="setCategory('Grammar'); hideDashboard();">
           <div class="card-icon-circle">✍️</div>
           <div class="card-body">
             <span class="card-count">Rules & Formats</span>
